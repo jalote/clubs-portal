@@ -6,7 +6,7 @@ const userSchema = new Schema({
   password: { type: String, require: true },
   handle: { type: String, required: true },
   isClubsCoordinator: { type: Boolean, default: false },
-  isAdmin: { type: Boolean, default: true }
+  isAdmin: { type: Boolean, default: false }
 })
 
 const User = mongoose.model('User', userSchema)

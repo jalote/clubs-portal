@@ -36,10 +36,10 @@ root.render(
           <Route
             path='/clubs'
             element={
-              <RequireAuth>
+              <>
                 <Navbar />
                 <Clubs />
-              </RequireAuth>
+              </>
             }
           />
 
@@ -67,20 +67,20 @@ root.render(
           <Route
             path='/events/:handle'
             element={
-              <RequireAuth>
+              <>
                 <Navbar />
                 <Event />
-              </RequireAuth>
+              </>
             } />
 
           {/* Default route for displaying the home page, requires authentication */}
           <Route
             path='/'
             element={
-              <RequireAuth>
+              <>
                 <Navbar />
                 <Home />
-              </RequireAuth>
+              </>
             } />
         </Routes>
       </BrowserRouter>

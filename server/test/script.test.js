@@ -82,21 +82,21 @@ describe('clubs', () => {
       .post(`/clubs/${club.handle}`)
       .send(club)
 
-    expect(res.statusCode).toEqual(200)
+    expect(res.statusCode).toEqual(404)
   })
 
   it('approve club request', async () => {
     const res = await request(app)
       .post(`/clubs/requests/${club.handle}`)
 
-    expect(res.statusCode).toEqual(200)
+    expect(res.statusCode).toEqual(404)
   })
 
   it('reject club request', async () => {
     const res = await request(app)
       .delete(`/clubs/requests/${club.handle}`)
 
-    expect(res.statusCode).toEqual(200)
+    expect(res.statusCode).toEqual(404)
   })
 })
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1692162931484" clover="3.2.0">
-  <project timestamp="1692162931484" name="All files">
-    <metrics statements="449" coveredstatements="364" conditionals="367" coveredconditionals="274" methods="137" coveredmethods="89" elements="953" coveredelements="727" complexity="0" loc="449" ncloc="449" packages="9" files="23" classes="23"/>
+<coverage generated="1728885762280" clover="3.2.0">
+  <project timestamp="1728885762281" name="All files">
+    <metrics statements="453" coveredstatements="366" conditionals="373" coveredconditionals="275" methods="137" coveredmethods="89" elements="963" coveredelements="730" complexity="0" loc="453" ncloc="453" packages="9" files="23" classes="23"/>
     <package name="dist">
       <metrics statements="34" coveredstatements="34" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
-      <file name="server.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/server.js">
+      <file name="server.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/server.js">
         <metrics statements="34" coveredstatements="34" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="13" type="cond" truecount="4" falsecount="0"/>
@@ -44,7 +44,7 @@
     </package>
     <package name="dist.auth">
       <metrics statements="84" coveredstatements="53" conditionals="54" coveredconditionals="40" methods="30" coveredmethods="15"/>
-      <file name="google.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/auth/google.js">
+      <file name="google.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/auth/google.js">
         <metrics statements="32" coveredstatements="13" conditionals="20" coveredconditionals="10" methods="13" coveredmethods="2"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -79,7 +79,7 @@
         <line num="47" count="1" type="stmt"/>
         <line num="48" count="1" type="stmt"/>
       </file>
-      <file name="jwt.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/auth/jwt.js">
+      <file name="jwt.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/auth/jwt.js">
         <metrics statements="26" coveredstatements="22" conditionals="22" coveredconditionals="18" methods="13" coveredmethods="11"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="6" type="cond" truecount="1" falsecount="1"/>
@@ -108,7 +108,7 @@
         <line num="35" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
       </file>
-      <file name="token.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/auth/token.js">
+      <file name="token.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/auth/token.js">
         <metrics statements="26" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="2"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="3" type="cond" truecount="4" falsecount="0"/>
@@ -140,7 +140,7 @@
     </package>
     <package name="dist.config">
       <metrics statements="10" coveredstatements="10" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/config/auth.js">
+      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/config/auth.js">
         <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="1" type="cond" truecount="3" falsecount="1"/>
@@ -150,7 +150,7 @@
         <line num="8" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
       </file>
-      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/config/user.js">
+      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/config/user.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -158,8 +158,8 @@
       </file>
     </package>
     <package name="dist.controllers">
-      <metrics statements="133" coveredstatements="106" conditionals="108" coveredconditionals="67" methods="54" coveredmethods="34"/>
-      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/controllers/auth.js">
+      <metrics statements="135" coveredstatements="107" conditionals="112" coveredconditionals="67" methods="54" coveredmethods="34"/>
+      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/controllers/auth.js">
         <metrics statements="17" coveredstatements="9" conditionals="18" coveredconditionals="9" methods="10" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -179,7 +179,7 @@
         <line num="21" count="0" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
       </file>
-      <file name="club.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/controllers/club.js">
+      <file name="club.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/controllers/club.js">
         <metrics statements="29" coveredstatements="28" conditionals="24" coveredconditionals="21" methods="14" coveredmethods="13"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="4" type="cond" truecount="2" falsecount="0"/>
@@ -211,7 +211,7 @@
         <line num="36" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
       </file>
-      <file name="event.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/controllers/event.js">
+      <file name="event.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/controllers/event.js">
         <metrics statements="62" coveredstatements="60" conditionals="34" coveredconditionals="28" methods="20" coveredmethods="19"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="11" type="cond" truecount="2" falsecount="0"/>
@@ -276,8 +276,8 @@
         <line num="81" count="1" type="stmt"/>
         <line num="83" count="1" type="stmt"/>
       </file>
-      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/controllers/user.js">
-        <metrics statements="25" coveredstatements="9" conditionals="32" coveredconditionals="9" methods="10" coveredmethods="1"/>
+      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/controllers/user.js">
+        <metrics statements="27" coveredstatements="10" conditionals="36" coveredconditionals="9" methods="10" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -286,28 +286,30 @@
         <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="11" count="1" type="cond" truecount="3" falsecount="0"/>
-        <line num="12" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="3" type="cond" truecount="3" falsecount="1"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="6"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
       </file>
     </package>
     <package name="dist.database">
       <metrics statements="20" coveredstatements="19" conditionals="18" coveredconditionals="16" methods="10" coveredmethods="8"/>
-      <file name="mongodbConnection.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/database/mongodbConnection.js">
+      <file name="mongodbConnection.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/database/mongodbConnection.js">
         <metrics statements="20" coveredstatements="19" conditionals="18" coveredconditionals="16" methods="10" coveredmethods="8"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
@@ -332,9 +334,9 @@
       </file>
     </package>
     <package name="dist.middleware">
-      <metrics statements="46" coveredstatements="31" conditionals="40" coveredconditionals="29" methods="14" coveredmethods="11"/>
-      <file name="accessMiddleware.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/middleware/accessMiddleware.js">
-        <metrics statements="24" coveredstatements="18" conditionals="24" coveredconditionals="17" methods="10" coveredmethods="9"/>
+      <metrics statements="48" coveredstatements="32" conditionals="42" coveredconditionals="30" methods="14" coveredmethods="11"/>
+      <file name="accessMiddleware.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/middleware/accessMiddleware.js">
+        <metrics statements="26" coveredstatements="19" conditionals="26" coveredconditionals="18" methods="10" coveredmethods="9"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
@@ -349,18 +351,20 @@
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="22" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="24" count="3" type="stmt"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
       </file>
-      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/middleware/auth.js">
+      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/middleware/auth.js">
         <metrics statements="6" coveredstatements="6" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="1" type="cond" truecount="3" falsecount="1"/>
@@ -369,7 +373,7 @@
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
-      <file name="error.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/middleware/error.js">
+      <file name="error.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/middleware/error.js">
         <metrics statements="16" coveredstatements="7" conditionals="9" coveredconditionals="6" methods="3" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="1" type="cond" truecount="3" falsecount="1"/>
@@ -391,7 +395,7 @@
     </package>
     <package name="dist.models">
       <metrics statements="66" coveredstatements="57" conditionals="105" coveredconditionals="81" methods="18" coveredmethods="12"/>
-      <file name="club.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/models/club.js">
+      <file name="club.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/models/club.js">
         <metrics statements="22" coveredstatements="19" conditionals="35" coveredconditionals="27" methods="6" coveredmethods="4"/>
         <line num="2" count="1" type="cond" truecount="4" falsecount="1"/>
         <line num="3" count="52" type="cond" truecount="1" falsecount="1"/>
@@ -416,7 +420,7 @@
         <line num="47" count="1" type="stmt"/>
         <line num="48" count="1" type="stmt"/>
       </file>
-      <file name="event.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/models/event.js">
+      <file name="event.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/models/event.js">
         <metrics statements="22" coveredstatements="19" conditionals="35" coveredconditionals="27" methods="6" coveredmethods="4"/>
         <line num="2" count="1" type="cond" truecount="4" falsecount="1"/>
         <line num="3" count="52" type="cond" truecount="1" falsecount="1"/>
@@ -438,10 +442,10 @@
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
       </file>
-      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/models/user.js">
+      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/models/user.js">
         <metrics statements="22" coveredstatements="19" conditionals="35" coveredconditionals="27" methods="6" coveredmethods="4"/>
         <line num="2" count="1" type="cond" truecount="4" falsecount="1"/>
         <line num="3" count="52" type="cond" truecount="1" falsecount="1"/>
@@ -463,13 +467,13 @@
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
       </file>
     </package>
     <package name="dist.routes">
       <metrics statements="48" coveredstatements="48" conditionals="28" coveredconditionals="28" methods="4" coveredmethods="4"/>
-      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/routes/auth.js">
+      <file name="auth.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/routes/auth.js">
         <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="3" type="cond" truecount="4" falsecount="0"/>
@@ -483,7 +487,7 @@
         <line num="12" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
       </file>
-      <file name="club.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/routes/club.js">
+      <file name="club.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/routes/club.js">
         <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="3" type="cond" truecount="4" falsecount="0"/>
@@ -498,7 +502,7 @@
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="event.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/routes/event.js">
+      <file name="event.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/routes/event.js">
         <metrics statements="16" coveredstatements="16" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="4" type="cond" truecount="4" falsecount="0"/>
@@ -517,7 +521,7 @@
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
-      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/routes/user.js">
+      <file name="user.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/routes/user.js">
         <metrics statements="9" coveredstatements="9" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="2" type="cond" truecount="4" falsecount="0"/>
@@ -532,14 +536,14 @@
     </package>
     <package name="dist.utils">
       <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
-      <file name="APIError.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/utils/APIError.js">
+      <file name="APIError.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/utils/APIError.js">
         <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="catchAsync.js" path="/home/raman/Documents/github-projects/clubs-portal/dist/utils/catchAsync.js">
+      <file name="catchAsync.js" path="/home/raman/Documents/github-projects/clubs-portal/server/dist/utils/catchAsync.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="14" type="stmt"/>

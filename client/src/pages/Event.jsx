@@ -8,6 +8,7 @@ const Event = () => {
   const params = useParams()
   const { handle } = params
   const token = useSelector(state => state.user.token)
+  const loggedIn = useSelector(state => state.user.loggedIn)
   const [aboutInfo, setAboutInfo] = useState(null)
   const navigate = useNavigate()
   const userHandle = useSelector(state => state.user.handle)
@@ -54,7 +55,7 @@ const Event = () => {
           <p>End: {aboutInfo.end}</p>
         </div>
       )}
-      <button className="border-2 p-4" onClick={handleClick}>Register</button>
+      {loggedIn && <button className="border-2 p-4" onClick={handleClick}>Register</button>}
     </div>
   )
 }

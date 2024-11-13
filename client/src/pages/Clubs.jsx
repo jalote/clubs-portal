@@ -10,6 +10,7 @@ const Clubs = () => {
   const [form, setForm] = useState(false)
   const [success, setSuccess] = useState(false)
   const handle = useSelector(state => state.user.handle)
+  const loggedIn = useSelector(state => state.user.loggedIn)
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -34,7 +35,7 @@ const Clubs = () => {
     <>
       <div className="w-full flex justify-center my-4 space-x-4">
         <h1 className="font-bold text-2xl">Student Clubs at IIIT Delhi</h1>
-        <button className="p-2 font-bold text-white bg-blue-600 rounded-md cursor-pointer" onClick={() => setForm(!form)}>Propose a new club</button>
+        {loggedIn && <button className="p-2 font-bold text-white bg-blue-600 rounded-md cursor-pointer" onClick={() => setForm(!form)}>Propose a new club</button>}
       </div>
     <div className="w-full">
       {form && <ClubForm setForm={setForm} clubHandle={handle} setSuccess={setSuccess}/>}
